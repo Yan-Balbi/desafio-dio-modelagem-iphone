@@ -1,6 +1,7 @@
 package edu.yan.modelagemiphone;
 
 import java.util.List;
+import java.util.Map;
 
 import edu.yan.modelagemiphone.Models.Contato;
 import edu.yan.modelagemiphone.Models.VoiceMail;
@@ -27,9 +28,9 @@ public interface ITelefone {
 //	sms
 	public void enviarSMS(Contato contato, String mensagem);
 	
-	public List<String> listarMSMsRecebidos();
+	public Map<String, Contato> listarMSMsRecebidos();
 	
 	public void lerMSMRecebido(int smsId);
 	
-	public void receberSMS(String mensagem);
+	public void receberSMS(String mensagem, Contato contato);
 }

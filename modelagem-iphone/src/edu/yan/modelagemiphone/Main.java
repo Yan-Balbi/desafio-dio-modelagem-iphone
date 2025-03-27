@@ -12,5 +12,7 @@ public class Main {
 		List<UsuarioEmail> destinatarios = List.of(new UsuarioEmail("pedro", "pedrao123@gmail.com"), new UsuarioEmail("ana", "ana@gmail.com"));
 		
 		iphone1.enviarEmail(new UsuarioEmail("Jose", "ze@gmail.com"), "Pessoal, boa tarde.\n Segue em anexo o relatório solicitado. \nGrato, Jose.", destinatarios);
+		
+		
 	}
 }

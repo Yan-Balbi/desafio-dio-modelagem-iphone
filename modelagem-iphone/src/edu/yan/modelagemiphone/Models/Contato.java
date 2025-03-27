@@ -4,9 +4,9 @@ public class Contato {
 	
 	private String nome;
 	
-	private int numero;
+	private String numero;
 	
-	public Contato(String nome, int numero) {
+	public Contato(String nome, String numero) {
 		this.setNome(nome);
 		this.setNumero(numero);
 	}
@@ -19,11 +19,11 @@ public class Contato {
 		this.nome = nome;
 	}
 
-	public int getNumero() {
+	public String getNumero() {
 		return numero;
 	}
 
-	public void setNumero(int numero) {
+	public void setNumero(String numero) {
 		this.numero = numero;
 	}
 	

@@ -6,6 +6,8 @@ public interface IGps {
 	
 	public void ampliarZoomMapa();
 	
+	public void reduzirZoomMapa();
+	
 	public void marcarPontoDestinoMapa(int altitude, int latitude);
 	
 	public void buscarLocalNoMapa(String nomeLocal);

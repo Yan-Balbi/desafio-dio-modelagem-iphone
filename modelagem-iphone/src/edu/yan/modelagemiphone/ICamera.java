@@ -8,7 +8,7 @@ public interface ICamera {
 	
 	public void tirarFoto();
 
-	public List<Foto> exibirTodasAsFotos();
+	public void exibirTodasAsFotos();
 	
 	public void exibirFoto(int fotoId);
 	
